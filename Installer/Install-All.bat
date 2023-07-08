@@ -74,4 +74,7 @@ choco install termius -y
 echo Installing 7zip...
 choco install 7zip -y
 
+echo Installing v2rayn...
+choco install v2rayn -y
+
  

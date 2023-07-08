@@ -39,6 +39,5 @@ IF ERRORLEVEL 1 (
 
 
 echo Installing nginx...
-pause();
 choco install nginx -y
 pause();
