@@ -37,15 +37,10 @@ IF ERRORLEVEL 1 (
     choco upgrade chocolatey -y
 )
 
-::Install tools and environments
-echo Installing rufus...
-choco install rufus -y
-echo Installing 7zip...
-choco install 7zip -y
-echo Installing foobar2000...
-choco install foobar2000 -y
 echo Installing putty...
 choco install putty -y
 
- 
-pause
+echo Installing winscp...
+choco install winscp -y
+
+plink -ssh -P port -l username -pw password  -batch hostname "service nginx restart"
