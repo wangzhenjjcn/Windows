@@ -77,4 +77,7 @@ choco install 7zip -y
 echo Installing v2rayn...
 choco install v2rayn -y
 
- 
+echo Installing zerotier-one ...
+choco install zerotier-one -y
+
+pause

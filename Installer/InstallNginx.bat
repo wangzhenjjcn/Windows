@@ -40,4 +40,4 @@ IF ERRORLEVEL 1 (
 
 echo Installing nginx...
 choco install nginx -y
-pause();
+pause

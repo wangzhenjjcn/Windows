@@ -38,3 +38,4 @@ IF ERRORLEVEL 1 (
 )
 
 choco install openjdk -y
+pause

@@ -38,3 +38,4 @@ IF ERRORLEVEL 1 (
 )
 
 choco install Ruby -y
+pause

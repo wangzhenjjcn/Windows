@@ -37,3 +37,4 @@ IF ERRORLEVEL 1 (
     choco upgrade chocolatey -y
 )
 choco install python39 -y
+pause

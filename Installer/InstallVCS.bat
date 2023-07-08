@@ -54,3 +54,4 @@ echo Installing vs2017
 choco install vcredist2017 -y  --force
 echo Installing vsall
 choco install vcredist-all -y  --force
+pause

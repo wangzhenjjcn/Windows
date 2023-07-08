@@ -36,5 +36,8 @@ IF ERRORLEVEL 1 (
     echo Chocolatey is already installed. Checking for updates...
     choco upgrade chocolatey -y
 )
-choco install Ruby -y
-pause
+
+::Install tools and environments
+echo Installing zerotier-one ...
+choco install zerotier-one -y
+
