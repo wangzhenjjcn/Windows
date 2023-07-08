@@ -36,5 +36,14 @@ IF ERRORLEVEL 1 (
     echo Chocolatey is already installed. Checking for updates...
     choco upgrade chocolatey -y
 )
-choco install Ruby -y
+
+::Install tools and environments
+echo Installing rufus...
+choco install rufus -y
+echo Installing 7zip...
+choco install 7zip -y
+echo Installing foobar2000...
+choco install foobar2000 -y
+
+ 
 pause

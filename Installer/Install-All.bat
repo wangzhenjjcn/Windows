@@ -50,6 +50,10 @@ choco install openjdk -y
 echo Installing Git...
 choco install git -y
 
+echo Installing  github-desktop ...
+choco installgithub-desktop -y
+ 
+
 echo Installing Nginx...
 choco install nginx -y
 
@@ -79,5 +83,21 @@ choco install v2rayn -y
 
 echo Installing zerotier-one ...
 choco install zerotier-one -y
+
+echo Installing  GoogleChrome ...
+choco install GoogleChrome -y
+
+echo Installing  OBS ...
+choco install obs-studio -y
+
+echo Installing  wamp-server ...
+choco install wamp-server -y
+
+
+echo Installing  arduino ...
+choco install arduino -y
+
+#echo Installing  autocad ...
+#choco install autocad -y
 
 pause
