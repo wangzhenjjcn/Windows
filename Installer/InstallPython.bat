@@ -36,4 +36,4 @@ IF ERRORLEVEL 1 (
     echo Chocolatey is already installed. Checking for updates...
     choco upgrade chocolatey -y
 )
-choco install python -y
+choco install python39 -y
